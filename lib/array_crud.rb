@@ -1,4 +1,4 @@
-require 'pry'
+
 def create_an_empty_array
   []
 end
@@ -39,5 +39,3 @@ def update_element_from_index(array, index_number, element)
   array[index_number] = element 
 end
 
-binding.pry
-0
